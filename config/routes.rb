@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  get 'password_resets/new'
+  get 'contacts/new'
+  get 'contacts/create'
 
+  get 'password_resets/new'
   get 'password_resets/edit'
 
   root 'static_pages#home'
